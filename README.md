@@ -18,6 +18,12 @@ To use:
  3. Compile your document with `xelatex` or `lualatex` (required for the Arial font that NIH favors)
 
 
+Troubleshooting: Missing `sty` package file? 
+
+1. Update your tex package manager: `tlmgr update --self`
+2. Install the new package: `tlmgr install <package>`
+
+
 ## Details
 
 The `nihbiosketch` class is based off of the standard article class.  It defines several new commands and environments to make creation of an NIH Biosketch relatively straightforward. The most straightforward approach is to use the `example-nihbiosketch.tex` document as a template for your biosketch.
